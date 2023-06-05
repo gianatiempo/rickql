@@ -1,0 +1,36 @@
+@import 'antd/dist/reset.css';
+
+/* whole theme styles (DO NOT CHANGE COLORS HERE!!!) */
+.ant-layout .ant-layout-sider-children {
+  height: 100vh;
+}
+
+.ant-layout .ant-menu-light.ant-menu-root.ant-menu-inline {
+  border-inline-end: inherit;
+}
+
+.ant-result-error {
+  width: 700px;
+  margin: auto;
+}
+
+.app-layout .logo {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.app-layout .page-wrapper {
+  margin: 0 16px;
+  height: calc(100% - 52px); /* 52px page header */
+}
+
+.app-layout .ant-layout-footer {
+  padding: 24px 12px;
+}
+
+.ant-slider-horizontal .ant-slider-mark {
+  top: 15px;
+}
